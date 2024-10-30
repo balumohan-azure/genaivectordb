@@ -13,7 +13,7 @@ import os
 app = Flask(__name__)
  
 # Initialize Pinecone
-api_key = "1efa3b1d-0137-41b1-b7ba-0cbf19382b38"
+api_key = "APIKEY"
 pc = Pinecone(api_key=api_key)
  
 # Create or connect to a Pinecone index
